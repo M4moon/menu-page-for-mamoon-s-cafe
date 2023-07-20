@@ -1,0 +1,116 @@
+
+body
+{
+margin: 0;
+padding: 0;
+background-color:khaki;
+}
+header
+{
+padding: 30px;
+margin: 10px;
+background-color: antiquewhite;
+font-size: 80px;
+text-align: center;
+font-family: 'Arial Black';
+color:chocolate ;
+}
+.head-col
+{
+    display: flex;
+    align-items:flex-end;
+}
+.headline
+{
+    flex:3;
+    align-items: center;
+}
+.menu-col
+{
+    display: flex;
+    align-items:center;
+    text-align: justify;
+}
+.img-col
+{
+
+    flex: 1
+    max-width: 80%;
+    height: auto ;
+    object-fit: cover;
+}
+
+.menu
+{
+    flex: 3
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px; 
+    padding: 10px;
+    background-color:wheat;
+    text-align: center;
+    font-size: small;
+    font-family: 'Arial Black';
+    color:chocolate;
+    
+}
+.menu-item
+{
+    display:flex;
+    justify-content: space-between;
+    flex:1
+    padding-right: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Arial Black';
+    color:chocolate;
+    
+}
+.cost
+{
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Arial Black';
+   color:chocolate;
+   
+}
+h2
+{
+text-align: center;
+font-size: 40px;
+font-style: italic;
+}
+.qoute
+{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+footer
+{
+padding: 100px;
+margin: 10px;
+background-color: antiquewhite;
+font-size: 60px;
+text-align: center;
+font-family: 'Arial Black';
+color:chocolate ;  
+}
+a.custom
+{
+    color: inherit;
+    text-decoration: none;
+}
+a.custom:hover
+{
+    text-decoration: wavy;
+    color: blue;
+}
+h2:hover
+{
+    cursor: pointer;
+}
+ul:hover
+{
+    cursor: pointer;
+}
